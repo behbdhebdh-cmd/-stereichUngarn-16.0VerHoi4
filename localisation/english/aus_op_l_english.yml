@@ -1,0 +1,87 @@
+l_english:
+  AUS_restore_habsburg_pride:0 "Habsburgischer Stolz"
+  AUS_restore_habsburg_pride_desc:0 "Wir sammeln alle Ressourcen, um Österreich wieder als Erben des Reiches zu etablieren und erhalten sofortige politische Stärke."
+
+  AUS_command_economy:0 "Befehlte Wirtschaft"
+  AUS_command_economy_desc:0 "Ein zentral gesteuerter Wirtschaftsplan entkoppelt uns von Engpässen und erschließt beispiellose Produktionskapazitäten."
+
+  AUS_imperial_academy:0 "Kaiserliche Akademie"
+  AUS_imperial_academy_desc:0 "Eine Akademie für die Besten der Besten liefert uns neue Forschungsschübe und talentierte Staatsmänner."
+
+  AUS_army_reform:0 "Heer erneuern"
+  AUS_army_reform_desc:0 "Offiziere und Ausbilder schaffen eine Armee, die moderne Doktrinen mit eiserner Disziplin verbindet."
+
+  AUS_military_industrial_complex:0 "Militärisch-industrieller Komplex"
+  AUS_military_industrial_complex_desc:0 "Neue Fabriken werden aus dem Boden gestampft, um unsere Kriegsmaschinerie mit allem zu versorgen, was sie verlangt."
+
+  AUS_infrastructure_miracle:0 "Infrastrukturwunder"
+  AUS_infrastructure_miracle_desc:0 "Gigantische Infrastrukturprojekte verbinden das Land und ebnen den Weg für schnelle Transporte und Ressourcenförderung."
+
+  AUS_supremacy_of_firepower:0 "Übermacht des Feuers"
+  AUS_supremacy_of_firepower_desc:0 "Artillerie und Unterstützungswaffen werden zur tödlichen Signatur des österreichischen Heeres."
+
+  AUS_pan_european_alliances:0 "Paneuropäische Allianzen"
+  AUS_pan_european_alliances_desc:0 "Diplomatische Netze sichern uns Freunde, Ressourcen und Durchmarschrechte in ganz Europa."
+
+  AUS_rapid_modernization:0 "Blitzmodernisierung"
+  AUS_rapid_modernization_desc:0 "Wir rüsten unsere Truppen sofort mit dem besten verfügbaren Gerät aus, um jede Front zu überrennen."
+
+  AUS_industrial_domination:0 "Industrielle Dominanz"
+  AUS_industrial_domination_desc:0 "Eine planmäßige Industrialisierung sorgt für mehr Macht und Flexibilität in jeder Produktionslinie."
+
+  AUS_heavy_industry_push:0 "Schub für Schwerindustrie"
+  AUS_heavy_industry_push_desc:0 "Massive Investitionen in Schwerindustrie bringen uns ein Heer an Fabriken und unerschöpfliche Ressourcen."
+
+  AUS_imperial_research_council:0 "Kaiserlicher Forschungssenat"
+  AUS_imperial_research_council_desc:0 "Koordinierte Forschungsetats beschleunigen jeden technischen Durchbruch."
+
+  AUS_global_protector:0 "Globaler Protektor"
+  AUS_global_protector_desc:0 "Wir beanspruchen das Recht, unsere Interessen überall zu verteidigen und dabei die Weltpolitik zu beeinflussen."
+
+  AUS_unquestioned_heir:0 "Unbestrittener Erbe"
+  AUS_unquestioned_heir_desc:0 "Österreich steht unangefochten an der Spitze Europas, gestützt von Wohlstand, Forschung und Loyalität."
+
+  AUS_imperial_ambition:0 "Kaiserlicher Ehrgeiz"
+  AUS_imperial_ambition_desc:0 "Der alte Ehrgeiz erwacht erneut und füllt die Menschen mit Zuversicht und Loyalität."
+
+  AUS_industrial_cartels:0 "Industrielle Kartelle"
+  AUS_industrial_cartels_desc:0 "Mächtige Kartelle koordinieren Produktion, Lieferketten und Logistik in beispiellosem Tempo."
+
+  AUS_research_complex:0 "Forschungskomplex"
+  AUS_research_complex_desc:0 "Gebündelte Laboratorien ermöglichen die parallele Entwicklung modernster Technologien."
+
+  AUS_professional_army:0 "Berufsarmee"
+  AUS_professional_army_desc:0 "Eine hochbezahlte und bestens ausgebildete Armee weiß jede Herausforderung zu meistern."
+
+  AUS_supreme_artillery:0 "Überlegene Artillerie"
+  AUS_supreme_artillery_desc:0 "Unsere Artillerie ist präzise, tödlich und jederzeit einsatzbereit."
+
+  AUS_diplomatic_web:0 "Diplomatisches Netz"
+  AUS_diplomatic_web_desc:0 "Bestechend günstige Diplomatie macht selbst skeptische Nationen empfänglich für österreichische Angebote."
+
+  AUS_motorized_focus:0 "Motorisierter Schwerpunkt"
+  AUS_motorized_focus_desc:0 "Motorisierte und mechanisierte Einheiten erhalten höchste Priorität und exklusive Ressourcenzuteilung."
+
+  AUS_perfect_planning:0 "Perfekte Planung"
+  AUS_perfect_planning_desc:0 "Generalstäbe erhalten freie Hand, um minutiöse Angriffspläne mit maximaler Effizienz umzusetzen."
+
+  AUS_science_supremacy:0 "Wissenschaftliche Vorherrschaft"
+  AUS_science_supremacy_desc:0 "Raketen- und Nuklearforschung werden massiv gefördert, um jeden Gegner technologisch zu überholen."
+
+  AUS_influence_network:0 "Einflussnetzwerk"
+  AUS_influence_network_desc:0 "Geheime Kanäle und Handelssonderrechte sichern Österreichs Einfluss auf fremdem Boden."
+
+  AUS_unbreakable_realm:0 "Unzerbrechliches Reich"
+  AUS_unbreakable_realm_desc:0 "Die Bevölkerung steht geschlossen hinter der Regierung, während Produktion und Rekrutierung durch die Decke gehen."
+
+  AUS_infrastructure_boom:0 "Infrastruktur-Boom"
+  AUS_infrastructure_boom_desc:0 "Schnelle Bauprogramme verdichten das Eisenbahn- und Straßennetz, was Ressourcenabfluss minimiert."
+
+  AUS_war_economy_drive:0 "Kriegswirtschaftsoffensive"
+  AUS_war_economy_drive_desc:0 "Industrie und Werften laufen heiß, um die Fronten dauerhaft zu versorgen."
+
+  AUS_endless_factories:0 "Endlose Fabriken"
+  AUS_endless_factories_desc:0 "Produktionsoptimierung und staatliche Anreize bringen uns mehr Fabriken als je zuvor."
+
+  AUS_intervention_rights:0 "Interventionsrecht"
+  AUS_intervention_rights_desc:0 "Österreich behält sich das Recht vor, militärisch einzugreifen, wann immer seine Interessen bedroht sind."
