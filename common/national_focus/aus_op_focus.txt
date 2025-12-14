@@ -74,6 +74,76 @@ focus_tree = {
     }
 
     focus = {
+        id = AUS_alpine_commandos
+        icon = GFX_goal_generic_mountain_warfare
+        prerequisite = { focus = AUS_army_reform }
+        x = -1
+        y = 2
+        cost = 5
+        completion_reward = {
+            add_ideas = AUS_alpine_commandos
+            add_army_experience = 50
+        }
+    }
+
+    focus = {
+        id = AUS_mountain_fortresses
+        icon = GFX_goal_generic_construct_mil_factory2
+        prerequisite = { focus = AUS_alpine_commandos }
+        x = -1
+        y = 3
+        cost = 5
+        completion_reward = {
+            add_timed_idea = {
+                idea = AUS_mountain_fortresses
+                days = 1460
+            }
+            add_offsite_building = {
+                type = arms_factory
+                level = 2
+            }
+        }
+    }
+
+    focus = {
+        id = AUS_steel_legions
+        icon = GFX_goal_generic_armor
+        prerequisite = { focus = AUS_army_reform }
+        x = 1
+        y = 2
+        cost = 5
+        completion_reward = {
+            add_ideas = AUS_steel_legions
+            add_army_experience = 50
+            add_tech_bonus = {
+                bonus = 0.75
+                uses = 2
+                category = armor
+            }
+        }
+    }
+
+    focus = {
+        id = AUS_armored_breakthrough
+        icon = GFX_goal_generic_army_tanks
+        prerequisite = { focus = AUS_steel_legions }
+        x = 1
+        y = 3
+        cost = 5
+        completion_reward = {
+            add_timed_idea = {
+                idea = AUS_armored_breakthrough
+                days = 1460
+            }
+            add_equipment_to_stockpile = {
+                type = light_tank_equipment
+                amount = 400
+                producer = AUS
+            }
+        }
+    }
+
+    focus = {
         id = AUS_military_industrial_complex
         icon = GFX_goal_generic_military_sphere
         prerequisite = { focus = AUS_command_economy }
@@ -96,6 +166,77 @@ focus_tree = {
     }
 
     focus = {
+        id = AUS_alpine_resource_survey
+        icon = GFX_goal_generic_oil_refinery
+        prerequisite = { focus = AUS_command_economy }
+        x = -5
+        y = 2
+        cost = 5
+        completion_reward = {
+            add_political_power = 75
+            add_timed_idea = {
+                idea = AUS_resource_survey
+                days = 1095
+            }
+        }
+    }
+
+    focus = {
+        id = AUS_mining_syndicates
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = AUS_alpine_resource_survey }
+        x = -5
+        y = 3
+        cost = 5
+        completion_reward = {
+            add_offsite_building = {
+                type = industrial_complex
+                level = 4
+            }
+            add_timed_idea = {
+                idea = AUS_mining_syndicates
+                days = 1460
+            }
+        }
+    }
+
+    focus = {
+        id = AUS_energy_autarky
+        icon = GFX_goal_generic_construct_infrastructure
+        prerequisite = { focus = AUS_mining_syndicates }
+        x = -5
+        y = 4
+        cost = 5
+        completion_reward = {
+            add_timed_idea = {
+                idea = AUS_energy_autarky
+                days = 1460
+            }
+            add_political_power = 75
+        }
+    }
+
+    focus = {
+        id = AUS_refinery_grid
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus = AUS_energy_autarky }
+        x = -5
+        y = 5
+        cost = 5
+        completion_reward = {
+            add_offsite_building = {
+                type = industrial_complex
+                level = 4
+            }
+            add_offsite_building = {
+                type = synthetic_refinery
+                level = 4
+            }
+            add_ideas = AUS_refinery_grid
+        }
+    }
+
+    focus = {
         id = AUS_infrastructure_miracle
         icon = GFX_goal_generic_construct_infrastructure
         prerequisite = { focus = AUS_command_economy }
@@ -109,6 +250,66 @@ focus_tree = {
                 idea = AUS_infrastructure_boom
                 days = 1800
             }
+        }
+    }
+
+    focus = {
+        id = AUS_railway_modernization
+        icon = GFX_goal_generic_construct_infrastructure2
+        prerequisite = { focus = AUS_infrastructure_miracle }
+        x = -3
+        y = 4
+        cost = 5
+        completion_reward = {
+            add_timed_idea = {
+                idea = AUS_supply_web
+                days = 1460
+            }
+            add_political_power = 50
+        }
+    }
+
+    focus = {
+        id = AUS_hydropower_revolution
+        icon = GFX_goal_generic_power
+        prerequisite = { focus = AUS_infrastructure_miracle }
+        x = -4
+        y = 4
+        cost = 5
+        completion_reward = {
+            add_offsite_building = {
+                type = industrial_complex
+                level = 3
+            }
+            add_ideas = AUS_hydropower_grid
+        }
+    }
+
+    focus = {
+        id = AUS_worker_cooperatives
+        icon = GFX_goal_support_workers
+        prerequisite = { focus = AUS_command_economy }
+        x = -1
+        y = 2
+        cost = 5
+        completion_reward = {
+            add_political_power = 50
+            add_stability = 0.05
+            add_ideas = AUS_worker_cooperatives
+        }
+    }
+
+    focus = {
+        id = AUS_social_contract
+        icon = GFX_goal_generic_political_reform
+        prerequisite = { focus = AUS_worker_cooperatives }
+        x = -1
+        y = 3
+        cost = 5
+        completion_reward = {
+            add_stability = 0.1
+            add_war_support = 0.05
+            add_ideas = AUS_social_contract
         }
     }
 
@@ -148,6 +349,22 @@ focus_tree = {
     }
 
     focus = {
+        id = AUS_central_european_block
+        icon = GFX_goal_generic_major_war
+        prerequisite = { focus = AUS_pan_european_alliances }
+        x = 3
+        y = 3
+        cost = 5
+        completion_reward = {
+            add_timed_idea = {
+                idea = AUS_central_european_block
+                days = 1460
+            }
+            add_political_power = 75
+        }
+    }
+
+    focus = {
         id = AUS_rapid_modernization
         icon = GFX_goal_generic_army_motorized
         prerequisite = { focus = AUS_supremacy_of_firepower }
@@ -167,6 +384,56 @@ focus_tree = {
             }
             add_ideas = AUS_motorized_focus
             add_army_experience = 50
+        }
+    }
+
+    focus = {
+        id = AUS_combined_arms_school
+        icon = GFX_goal_generic_army_maneuvers
+        prerequisite = { focus = AUS_supremacy_of_firepower }
+        prerequisite = { focus = AUS_armored_breakthrough }
+        x = 0
+        y = 4
+        cost = 5
+        completion_reward = {
+            add_ideas = AUS_combined_arms_school
+            add_army_experience = 75
+        }
+    }
+
+    focus = {
+        id = AUS_modern_artillery_parks
+        icon = GFX_goal_generic_artillery2
+        prerequisite = { focus = AUS_combined_arms_school }
+        x = 0
+        y = 5
+        cost = 5
+        completion_reward = {
+            add_timed_idea = {
+                idea = AUS_modern_artillery_parks
+                days = 1460
+            }
+            add_equipment_to_stockpile = {
+                type = artillery_equipment
+                amount = 1000
+                producer = AUS
+            }
+        }
+    }
+
+    focus = {
+        id = AUS_field_hospital_corps
+        icon = GFX_goal_generic_army_doctrine
+        prerequisite = { focus = AUS_combined_arms_school }
+        x = 1
+        y = 5
+        cost = 5
+        completion_reward = {
+            add_timed_idea = {
+                idea = AUS_field_hospital_corps
+                days = 1460
+            }
+            add_political_power = 50
         }
     }
 
@@ -354,6 +621,107 @@ focus_tree = {
     }
 
     focus = {
+        id = AUS_mediterranean_bastion
+        icon = GFX_goal_generic_navy_battleship
+        prerequisite = { focus = AUS_adriatic_guardian }
+        x = -4
+        y = 7
+        cost = 5
+        completion_reward = {
+            add_timed_idea = {
+                idea = AUS_mediterranean_bastion
+                days = 1460
+            }
+            navy_experience = 50
+        }
+    }
+
+    focus = {
+        id = AUS_submarine_wolves
+        icon = GFX_goal_generic_navy_submarine
+        prerequisite = { focus = AUS_carrier_program }
+        x = -2
+        y = 7
+        cost = 5
+        completion_reward = {
+            add_ideas = AUS_submarine_wolves
+            add_tech_bonus = {
+                bonus = 1.0
+                uses = 2
+                category = submarine_doctrine
+            }
+        }
+    }
+
+    focus = {
+        id = AUS_amphibious_corps
+        icon = GFX_goal_generic_amphibious_assault
+        prerequisite = { focus = AUS_naval_legion }
+        x = -1
+        y = 8
+        cost = 5
+        completion_reward = {
+            add_ideas = AUS_amphibious_corps
+            add_army_experience = 50
+            add_equipment_to_stockpile = {
+                type = support_equipment
+                amount = 1500
+                producer = AUS
+            }
+        }
+    }
+
+    focus = {
+        id = AUS_capital_dominance
+        icon = GFX_goal_generic_navy_carrier2
+        prerequisite = { focus = AUS_naval_legion }
+        prerequisite = { focus = AUS_mediterranean_bastion }
+        x = -3
+        y = 8
+        cost = 5
+        completion_reward = {
+            add_ideas = AUS_capital_dominance
+            add_offsite_building = {
+                type = dockyard
+                level = 4
+            }
+        }
+    }
+
+    focus = {
+        id = AUS_oceanic_corridors
+        icon = GFX_goal_generic_dockyard
+        prerequisite = { focus = AUS_submarine_wolves }
+        x = -2
+        y = 8
+        cost = 5
+        completion_reward = {
+            add_timed_idea = {
+                idea = AUS_oceanic_corridors
+                days = 1460
+            }
+            add_political_power = 50
+        }
+    }
+
+    focus = {
+        id = AUS_global_convoy_monopoly
+        icon = GFX_goal_generic_navy_escort
+        prerequisite = { focus = AUS_capital_dominance }
+        prerequisite = { focus = AUS_oceanic_corridors }
+        x = -2
+        y = 9
+        cost = 5
+        completion_reward = {
+            add_ideas = AUS_global_convoy_monopoly
+            add_timed_idea = {
+                idea = AUS_global_convoy_monopoly
+                days = 1460
+            }
+        }
+    }
+
+    focus = {
         id = AUS_aerial_empire
         icon = GFX_goal_generic_air_fighter
         prerequisite = { focus = AUS_imperial_research_council }
@@ -425,6 +793,76 @@ focus_tree = {
     }
 
     focus = {
+        id = AUS_cas_armada
+        icon = GFX_goal_generic_air_close_air_support
+        prerequisite = { focus = AUS_aerial_empire }
+        x = 0
+        y = 4
+        cost = 5
+        completion_reward = {
+            add_ideas = AUS_cas_armada
+            add_air_experience = 50
+            add_equipment_to_stockpile = {
+                type = CAS_equipment
+                amount = 400
+                producer = AUS
+            }
+        }
+    }
+
+    focus = {
+        id = AUS_skyfortresses
+        icon = GFX_goal_generic_air_defense
+        prerequisite = { focus = AUS_air_supremacy }
+        x = 2
+        y = 6
+        cost = 5
+        completion_reward = {
+            add_ideas = AUS_skyfortresses
+            add_timed_idea = {
+                idea = AUS_skyfortresses
+                days = 1460
+            }
+            add_air_experience = 75
+        }
+    }
+
+    focus = {
+        id = AUS_airborne_legions
+        icon = GFX_goal_generic_paratrooper
+        prerequisite = { focus = AUS_air_supremacy }
+        x = 0
+        y = 6
+        cost = 5
+        completion_reward = {
+            add_ideas = AUS_airborne_legions
+            add_army_experience = 50
+            add_equipment_to_stockpile = {
+                type = transport_plane_equipment
+                amount = 80
+                producer = AUS
+            }
+        }
+    }
+
+    focus = {
+        id = AUS_global_airlift
+        icon = GFX_goal_generic_air_bomber2
+        prerequisite = { focus = AUS_airborne_legions }
+        prerequisite = { focus = AUS_skyfortresses }
+        x = 1
+        y = 7
+        cost = 5
+        completion_reward = {
+            add_ideas = AUS_global_airlift
+            add_timed_idea = {
+                idea = AUS_global_airlift
+                days = 1460
+            }
+        }
+    }
+
+    focus = {
         id = AUS_shadow_network
         icon = GFX_goal_generic_spy
         prerequisite = { focus = AUS_global_protector }
@@ -456,6 +894,62 @@ focus_tree = {
                 days = 1095
             }
             add_ideas = AUS_court_of_kings
+        }
+    }
+
+    focus = {
+        id = AUS_propaganda_directorate
+        icon = GFX_goal_generic_propaganda
+        prerequisite = { focus = AUS_shadow_network }
+        x = 5
+        y = 4
+        cost = 5
+        completion_reward = {
+            add_ideas = AUS_propaganda_directorate
+            add_stability = 0.05
+        }
+    }
+
+    focus = {
+        id = AUS_reichsrat_security
+        icon = GFX_goal_generic_military_intelligence
+        prerequisite = { focus = AUS_propaganda_directorate }
+        x = 5
+        y = 5
+        cost = 5
+        completion_reward = {
+            add_ideas = AUS_reichsrat_security
+            add_political_power = 50
+        }
+    }
+
+    focus = {
+        id = AUS_cryptology_center
+        icon = GFX_goal_generic_radar
+        prerequisite = { focus = AUS_reichsrat_security }
+        x = 5
+        y = 6
+        cost = 5
+        completion_reward = {
+            add_ideas = AUS_cryptology_center
+            add_research_slot = 1
+        }
+    }
+
+    focus = {
+        id = AUS_worldwide_assets
+        icon = GFX_goal_generic_spy2
+        prerequisite = { focus = AUS_cryptology_center }
+        prerequisite = { focus = AUS_personal_union_bids }
+        x = 4
+        y = 7
+        cost = 5
+        completion_reward = {
+            add_ideas = AUS_worldwide_assets
+            add_timed_idea = {
+                idea = AUS_worldwide_assets
+                days = 1460
+            }
         }
     }
 
@@ -512,6 +1006,54 @@ focus_tree = {
                 type = industrial_complex
                 level = 6
             }
+        }
+    }
+
+    focus = {
+        id = AUS_imperial_conference
+        icon = GFX_goal_generic_diplomatic_pressure
+        prerequisite = { focus = AUS_unquestioned_heir }
+        prerequisite = { focus = AUS_central_european_block }
+        x = 3
+        y = 6
+        cost = 5
+        completion_reward = {
+            add_ideas = AUS_imperial_conference
+            add_political_power = 100
+            add_stability = 0.05
+        }
+    }
+
+    focus = {
+        id = AUS_reintegrate_crowns
+        icon = GFX_goal_generic_political_reform
+        prerequisite = { focus = AUS_resurrect_habsburg_empire }
+        prerequisite = { focus = AUS_imperial_conference }
+        x = 2
+        y = 8
+        cost = 5
+        completion_reward = {
+            add_ideas = AUS_reintegrate_crowns
+            add_war_support = 0.1
+            add_stability = 0.1
+        }
+    }
+
+    focus = {
+        id = AUS_world_arbiter
+        icon = GFX_goal_generic_demand_territory
+        prerequisite = { focus = AUS_reintegrate_crowns }
+        prerequisite = { focus = AUS_worldwide_assets }
+        prerequisite = { focus = AUS_global_convoy_monopoly }
+        prerequisite = { focus = AUS_global_airlift }
+        x = 2
+        y = 9
+        cost = 5
+        completion_reward = {
+            set_major_nation = yes
+            add_political_power = 250
+            add_ideas = AUS_world_arbiter
+            add_research_slot = 1
         }
     }
 }

@@ -1,6 +1,6 @@
 l_english:
-  AUS_restore_habsburg_pride:0 "Habsburgischer Stolz"
-  AUS_restore_habsburg_pride_desc:0 "Wir sammeln alle Ressourcen, um Österreich wieder als Erben des Reiches zu etablieren und erhalten sofortige politische Stärke."
+  AUS_restore_habsburg_pride:0 "Habsburgischen Stolz erneuern"
+  AUS_restore_habsburg_pride_desc:0 "Wir entfesseln einen neuen Mythos um die Dynastie, bündeln Loyalität und Macht und ebnen den Weg für ein wiedergeborenes Habsburgerreich."
 
   AUS_command_economy:0 "Befehlte Wirtschaft"
   AUS_command_economy_desc:0 "Ein zentral gesteuerter Wirtschaftsplan entkoppelt uns von Engpässen und erschließt beispiellose Produktionskapazitäten."
@@ -181,3 +181,102 @@ l_english:
 
   AUS_empire_restored:0 "Reich wiederhergestellt"
   AUS_empire_restored_desc:0 "Das neue Habsburgerreich verfügt über schier endlose Ressourcen, Loyalität und militärische Stärke."
+
+  AUS_alpine_resource_survey:0 "Alpen-Ressourcenkartierung"
+  AUS_alpine_resource_survey_desc:0 "Geologen und Ingenieure erfassen jedes Erzvorkommen und jede Energiequelle, um unsere Industrie explosionsartig wachsen zu lassen."
+
+  AUS_mining_syndicates:0 "Bergbausyndikate"
+  AUS_mining_syndicates_desc:0 "Private und staatliche Syndikate erschließen die Alpen mit unerbittlicher Effizienz und liefern Material für unzählige Fabriken."
+
+  AUS_energy_autarky:0 "Energie-Autarkie"
+  AUS_energy_autarky_desc:0 "Wir schaffen ein dichtes Netz aus Raffinerien und Speichern, das unsere Kriegswirtschaft mit eigenem Treibstoff versorgt."
+
+  AUS_refinery_grid:0 "Raffinerienetz"
+  AUS_refinery_grid_desc:0 "Verbundenen Raffinerien und Silos geben uns riesige Treibstoffreserven und stabile Versorgungslinien."
+
+  AUS_railway_modernization:0 "Bahnnetz modernisieren"
+  AUS_railway_modernization_desc:0 "Elektrifizierte Strecken und neue Versorgungsknoten sorgen dafür, dass Truppen und Nachschub schneller als je zuvor ankommen."
+
+  AUS_hydropower_revolution:0 "Wasserkraftrevolution"
+  AUS_hydropower_revolution_desc:0 "Staudämme und Turbinen verwandeln alpine Flüsse in endlose Energiequellen für unsere Industrie."
+
+  AUS_worker_cooperatives:0 "Arbeiter-Kooperativen"
+  AUS_worker_cooperatives_desc:0 "Betriebsräte und Kooperativen steigern Produktivität und Loyalität, weil jeder am Aufstieg des Reiches teilhat."
+
+  AUS_social_contract:0 "Neuer Gesellschaftsvertrag"
+  AUS_social_contract_desc:0 "Staatliche Garantien verbinden Wohlstand, Wehrpflicht und Stabilität zu einem Bündnis zwischen Volk und Krone."
+
+  AUS_alpine_commandos:0 "Alpine Kommandos"
+  AUS_alpine_commandos_desc:0 "Gebirgsjäger erhalten Spezialausrüstung und Training, um jeden Pass und jede Festung im Hochgebirge zu halten."
+
+  AUS_mountain_fortresses:0 "Bergfestungen"
+  AUS_mountain_fortresses_desc:0 "Wir verwandeln die Alpen in eine undurchdringliche Kette aus Bunkern, Artilleriestellungen und Fabriken."
+
+  AUS_steel_legions:0 "Stahl-Legionen"
+  AUS_steel_legions_desc:0 "Panzertruppen werden zum Kern unseres Heeres und erhalten Priorität bei Forschung und Produktion."
+
+  AUS_armored_breakthrough:0 "Gepanzerter Durchbruch"
+  AUS_armored_breakthrough_desc:0 "Mit konzentrierten Panzerspitzen und schneller Versorgung zerschlagen wir jede Frontlinie."
+
+  AUS_combined_arms_school:0 "Schule für Verbundkrieg"
+  AUS_combined_arms_school_desc:0 "Offiziere lernen, Infanterie, Panzer und Artillerie in einer präzisen Choreographie einzusetzen."
+
+  AUS_modern_artillery_parks:0 "Moderne Artillerieparks"
+  AUS_modern_artillery_parks_desc:0 "Zentrale Depots liefern modernste Geschütze und Munition, damit unsere Batterien nie schweigen."
+
+  AUS_field_hospital_corps:0 "Sanitätskorps"
+  AUS_field_hospital_corps_desc:0 "Mobile Lazarette und Rettungsteams halten unsere Veteranen im Feld und reduzieren Verluste erheblich."
+
+  AUS_mediterranean_bastion:0 "Bastion im Mittelmeer"
+  AUS_mediterranean_bastion_desc:0 "Küstenforts und modernisierte Häfen machen unsere Stützpunkte unangreifbar."
+
+  AUS_submarine_wolves:0 "U-Boot-Wölfe"
+  AUS_submarine_wolves_desc:0 "U-Boot-Rudel greifen mit maximaler Tarnung an und zerschneiden feindliche Versorgungslinien."
+
+  AUS_amphibious_corps:0 "Amphibisches Korps"
+  AUS_amphibious_corps_desc:0 "Spezialisierte Marineinfanterie und Technik lassen uns jede Küste sturmreif schießen."
+
+  AUS_capital_dominance:0 "Dominanz der Großkampfschiffe"
+  AUS_capital_dominance_desc:0 "Superschlachtschiffe und Träger erhalten Priorität, um jede Schlacht auf See zu diktieren."
+
+  AUS_oceanic_corridors:0 "Ozeanische Korridore"
+  AUS_oceanic_corridors_desc:0 "Sichere Handelsrouten und Eskorteinstellungen garantieren, dass unsere Flotten überall versorgt werden."
+
+  AUS_global_convoy_monopoly:0 "Konvoimonopol"
+  AUS_global_convoy_monopoly_desc:0 "Wir kontrollieren die wichtigsten Seeverbindungen und verdienen an jedem Transport."
+
+  AUS_cas_armada:0 "Sturzkampf-Armada"
+  AUS_cas_armada_desc:0 "Unsere CAS-Staffeln erhalten höchste Priorität und vernichten jeden feindlichen Vormarsch."
+
+  AUS_skyfortresses:0 "Himmelsfestungen"
+  AUS_skyfortresses_desc:0 "Verstärkte Bomber und Flaknetze schützen unsere Städte und sichern die Luftüberlegenheit."
+
+  AUS_airborne_legions:0 "Luftlande-Legionen"
+  AUS_airborne_legions_desc:0 "Groß angelegte Luftlandeoperationen ermöglichen es uns, Feinde zu umzingeln, bevor sie reagieren können."
+
+  AUS_global_airlift:0 "Globaler Luftbrückendienst"
+  AUS_global_airlift_desc:0 "Ein strategisches Transportnetz verlegt Armeen und Nachschub innerhalb von Stunden auf jeden Kontinent."
+
+  AUS_propaganda_directorate:0 "Propagandadirektorat"
+  AUS_propaganda_directorate_desc:0 "Gezielte Kampagnen halten die Moral hoch und füllen stetig unsere Rekrutierungspools."
+
+  AUS_reichsrat_security:0 "Reichsrats-Sicherheit"
+  AUS_reichsrat_security_desc:0 "Ein dichtes Sicherheitsnetz bekämpft Widerstand, schützt Operateure und bewahrt den inneren Frieden."
+
+  AUS_cryptology_center:0 "Kryptologiezentrum"
+  AUS_cryptology_center_desc:0 "Codeschmieden und Funkstationen verschaffen uns Informationsvorsprünge gegen jede Armee."
+
+  AUS_worldwide_assets:0 "Weltweite Assets"
+  AUS_worldwide_assets_desc:0 "Agentennetze und Einflusszonen sichern uns operative Freiheit auf jedem Kontinent."
+
+  AUS_central_european_block:0 "Mitteleuropäischer Block"
+  AUS_central_european_block_desc:0 "Eine enge Allianz in Mitteleuropa verschafft uns diplomatische Schlagkraft und offene Grenzen."
+
+  AUS_imperial_conference:0 "Kaiserliche Konferenz"
+  AUS_imperial_conference_desc:0 "Staatschefs, Adelige und Militärs beraten über gemeinsame Strategien und verleihen Österreich Führungskraft."
+
+  AUS_reintegrate_crowns:0 "Kronen reintegrieren"
+  AUS_reintegrate_crowns_desc:0 "Ehemalige Kronländer werden politisch, wirtschaftlich und militärisch in das Reich eingegliedert."
+
+  AUS_world_arbiter:0 "Schiedsrichter der Welt"
+  AUS_world_arbiter_desc:0 "Mit Flotte, Luftherrschaft, Spionage und diplomatischem Gewicht entscheidet Österreich über Krieg und Frieden."
