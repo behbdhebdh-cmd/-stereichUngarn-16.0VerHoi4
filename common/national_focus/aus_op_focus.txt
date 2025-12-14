@@ -289,7 +289,7 @@ focus_tree = {
         id = AUS_worker_cooperatives
         icon = GFX_goal_support_workers
         prerequisite = { focus = AUS_command_economy }
-        x = -1
+        x = -4
         y = 2
         cost = 5
         completion_reward = {
@@ -303,7 +303,7 @@ focus_tree = {
         id = AUS_social_contract
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = AUS_worker_cooperatives }
-        x = -1
+        x = -4
         y = 3
         cost = 5
         completion_reward = {
@@ -368,7 +368,7 @@ focus_tree = {
         id = AUS_rapid_modernization
         icon = GFX_goal_generic_army_motorized
         prerequisite = { focus = AUS_supremacy_of_firepower }
-        x = -1
+        x = 0
         y = 3
         cost = 5
         completion_reward = {
@@ -425,7 +425,7 @@ focus_tree = {
         id = AUS_field_hospital_corps
         icon = GFX_goal_generic_army_doctrine
         prerequisite = { focus = AUS_combined_arms_school }
-        x = 1
+        x = -1
         y = 5
         cost = 5
         completion_reward = {
@@ -494,7 +494,7 @@ focus_tree = {
         id = AUS_global_protector
         icon = GFX_goal_generic_military_sphere
         prerequisite = { focus = AUS_pan_european_alliances }
-        x = 3
+        x = 4
         y = 3
         cost = 5
         completion_reward = {
@@ -514,7 +514,7 @@ focus_tree = {
         prerequisite = { focus = AUS_global_protector }
         prerequisite = { focus = AUS_heavy_industry_push }
         prerequisite = { focus = AUS_rapid_modernization }
-        x = 1
+        x = 2
         y = 5
         cost = 5
         completion_reward = {
@@ -530,7 +530,7 @@ focus_tree = {
         id = AUS_access_to_the_sea
         icon = GFX_goal_generic_navy_battleship
         prerequisite = { focus = AUS_infrastructure_miracle }
-        x = -4
+        x = -6
         y = 4
         cost = 5
         completion_reward = {
@@ -549,7 +549,7 @@ focus_tree = {
         id = AUS_triest_port_authority
         icon = GFX_goal_generic_port
         prerequisite = { focus = AUS_access_to_the_sea }
-        x = -4
+        x = -6
         y = 5
         cost = 5
         completion_reward = {
@@ -725,7 +725,7 @@ focus_tree = {
         id = AUS_aerial_empire
         icon = GFX_goal_generic_air_fighter
         prerequisite = { focus = AUS_imperial_research_council }
-        x = 1
+        x = 2
         y = 3
         cost = 5
         completion_reward = {
@@ -779,7 +779,7 @@ focus_tree = {
         icon = GFX_goal_generic_air_supremacy
         prerequisite = { focus = AUS_long_range_bombers }
         prerequisite = { focus = AUS_jet_research_push }
-        x = 1
+        x = 3
         y = 5
         cost = 5
         completion_reward = {
@@ -796,7 +796,7 @@ focus_tree = {
         id = AUS_cas_armada
         icon = GFX_goal_generic_air_close_air_support
         prerequisite = { focus = AUS_aerial_empire }
-        x = 0
+        x = 3
         y = 4
         cost = 5
         completion_reward = {
