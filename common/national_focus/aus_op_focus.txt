@@ -390,8 +390,10 @@ focus_tree = {
     focus = {
         id = AUS_combined_arms_school
         icon = GFX_goal_generic_army_maneuvers
-        prerequisite = { focus = AUS_supremacy_of_firepower }
-        prerequisite = { focus = AUS_armored_breakthrough }
+        prerequisite = {
+            focus = AUS_supremacy_of_firepower
+            focus = AUS_armored_breakthrough
+        }
         x = 31
         y = 8
         cost = 5
@@ -511,9 +513,11 @@ focus_tree = {
     focus = {
         id = AUS_unquestioned_heir
         icon = GFX_goal_generic_political_reform
-        prerequisite = { focus = AUS_global_protector }
-        prerequisite = { focus = AUS_heavy_industry_push }
-        prerequisite = { focus = AUS_rapid_modernization }
+        prerequisite = {
+            focus = AUS_global_protector
+            focus = AUS_heavy_industry_push
+            focus = AUS_rapid_modernization
+        }
         x = 35
         y = 9
         cost = 5
@@ -605,8 +609,10 @@ focus_tree = {
     focus = {
         id = AUS_naval_legion
         icon = GFX_goal_generic_navy_cruiser
-        prerequisite = { focus = AUS_adriatic_guardian }
-        prerequisite = { focus = AUS_carrier_program }
+        prerequisite = {
+            focus = AUS_adriatic_guardian
+            focus = AUS_carrier_program
+        }
         x = 25
         y = 11
         cost = 5
@@ -674,8 +680,10 @@ focus_tree = {
     focus = {
         id = AUS_capital_dominance
         icon = GFX_goal_generic_navy_carrier2
-        prerequisite = { focus = AUS_naval_legion }
-        prerequisite = { focus = AUS_mediterranean_bastion }
+        prerequisite = {
+            focus = AUS_naval_legion
+            focus = AUS_mediterranean_bastion
+        }
         x = 25
         y = 12
         cost = 5
@@ -707,8 +715,10 @@ focus_tree = {
     focus = {
         id = AUS_global_convoy_monopoly
         icon = GFX_goal_generic_navy_escort
-        prerequisite = { focus = AUS_capital_dominance }
-        prerequisite = { focus = AUS_oceanic_corridors }
+        prerequisite = {
+            focus = AUS_capital_dominance
+            focus = AUS_oceanic_corridors
+        }
         x = 27
         y = 13
         cost = 5
@@ -777,8 +787,10 @@ focus_tree = {
     focus = {
         id = AUS_air_supremacy
         icon = GFX_goal_generic_air_supremacy
-        prerequisite = { focus = AUS_long_range_bombers }
-        prerequisite = { focus = AUS_jet_research_push }
+        prerequisite = {
+            focus = AUS_long_range_bombers
+            focus = AUS_jet_research_push
+        }
         x = 37
         y = 9
         cost = 5
@@ -848,8 +860,10 @@ focus_tree = {
     focus = {
         id = AUS_global_airlift
         icon = GFX_goal_generic_air_bomber2
-        prerequisite = { focus = AUS_airborne_legions }
-        prerequisite = { focus = AUS_skyfortresses }
+        prerequisite = {
+            focus = AUS_airborne_legions
+            focus = AUS_skyfortresses
+        }
         x = 33
         y = 11
         cost = 5
@@ -939,8 +953,10 @@ focus_tree = {
     focus = {
         id = AUS_worldwide_assets
         icon = GFX_goal_generic_spy2
-        prerequisite = { focus = AUS_cryptology_center }
-        prerequisite = { focus = AUS_personal_union_bids }
+        prerequisite = {
+            focus = AUS_cryptology_center
+            focus = AUS_personal_union_bids
+        }
         x = 39
         y = 11
         cost = 5
@@ -970,8 +986,10 @@ focus_tree = {
     focus = {
         id = AUS_proclaim_great_power
         icon = GFX_goal_generic_political_pressure
-        prerequisite = { focus = AUS_unquestioned_heir }
-        prerequisite = { focus = AUS_air_supremacy }
+        prerequisite = {
+            focus = AUS_unquestioned_heir
+            focus = AUS_air_supremacy
+        }
         x = 33
         y = 10
         cost = 5
@@ -987,8 +1005,10 @@ focus_tree = {
     focus = {
         id = AUS_resurrect_habsburg_empire
         icon = GFX_goal_anschluss
-        prerequisite = { focus = AUS_proclaim_great_power }
-        prerequisite = { focus = AUS_personal_union_bids }
+        prerequisite = {
+            focus = AUS_proclaim_great_power
+            focus = AUS_personal_union_bids
+        }
         x = 35
         y = 11
         cost = 5
@@ -1012,8 +1032,10 @@ focus_tree = {
     focus = {
         id = AUS_imperial_conference
         icon = GFX_goal_generic_diplomatic_pressure
-        prerequisite = { focus = AUS_unquestioned_heir }
-        prerequisite = { focus = AUS_central_european_block }
+        prerequisite = {
+            focus = AUS_unquestioned_heir
+            focus = AUS_central_european_block
+        }
         x = 37
         y = 10
         cost = 5
@@ -1027,8 +1049,10 @@ focus_tree = {
     focus = {
         id = AUS_reintegrate_crowns
         icon = GFX_goal_generic_political_reform
-        prerequisite = { focus = AUS_resurrect_habsburg_empire }
-        prerequisite = { focus = AUS_imperial_conference }
+        prerequisite = {
+            focus = AUS_resurrect_habsburg_empire
+            focus = AUS_imperial_conference
+        }
         x = 35
         y = 12
         cost = 5
@@ -1042,10 +1066,12 @@ focus_tree = {
     focus = {
         id = AUS_world_arbiter
         icon = GFX_goal_generic_demand_territory
-        prerequisite = { focus = AUS_reintegrate_crowns }
-        prerequisite = { focus = AUS_worldwide_assets }
-        prerequisite = { focus = AUS_global_convoy_monopoly }
-        prerequisite = { focus = AUS_global_airlift }
+        prerequisite = {
+            focus = AUS_reintegrate_crowns
+            focus = AUS_worldwide_assets
+            focus = AUS_global_convoy_monopoly
+            focus = AUS_global_airlift
+        }
         x = 35
         y = 13
         cost = 5
@@ -1132,8 +1158,10 @@ focus_tree = {
     focus = {
         id = AUS_rebuild_hofburg
         icon = GFX_goal_generic_construct_civ_factory
-        prerequisite = { focus = AUS_modern_ku_k_war_ministry }
-        prerequisite = { focus = AUS_kaiserliche_rituale }
+        prerequisite = {
+            focus = AUS_modern_ku_k_war_ministry
+            focus = AUS_kaiserliche_rituale
+        }
         x = 41
         y = 8
         cost = 5
@@ -1222,9 +1250,11 @@ focus_tree = {
     focus = {
         id = AUS_holy_crown_reaffirmed
         icon = GFX_goal_generic_political_reform
-        prerequisite = { focus = AUS_rebuild_hofburg }
-        prerequisite = { focus = AUS_danube_fortress_line }
-        prerequisite = { focus = AUS_reconstitute_ku_k_navy }
+        prerequisite = {
+            focus = AUS_rebuild_hofburg
+            focus = AUS_danube_fortress_line
+            focus = AUS_reconstitute_ku_k_navy
+        }
         x = 41
         y = 9
         cost = 5
@@ -1238,8 +1268,10 @@ focus_tree = {
     focus = {
         id = AUS_march_to_majesty
         icon = GFX_goal_generic_political_center
-        prerequisite = { focus = AUS_holy_crown_reaffirmed }
-        prerequisite = { focus = AUS_imperial_conference }
+        prerequisite = {
+            focus = AUS_holy_crown_reaffirmed
+            focus = AUS_imperial_conference
+        }
         x = 41
         y = 10
         cost = 5
@@ -1375,8 +1407,10 @@ focus_tree = {
     focus = {
         id = AUS_hegemons_right
         icon = GFX_goal_generic_major_alliance
-        prerequisite = { focus = AUS_boundless_workforce }
-        prerequisite = { focus = AUS_imperial_standardization }
+        prerequisite = {
+            focus = AUS_boundless_workforce
+            focus = AUS_imperial_standardization
+        }
         x = 44
         y = 17
         cost = 5
@@ -1472,8 +1506,10 @@ focus_tree = {
     focus = {
         id = AUS_orbital_dreams
         icon = GFX_goal_generic_rocketry
-        prerequisite = { focus = AUS_quantum_labs }
-        prerequisite = { focus = AUS_stratospheric_airlift }
+        prerequisite = {
+            focus = AUS_quantum_labs
+            focus = AUS_stratospheric_airlift
+        }
         x = 39
         y = 9
         cost = 5
@@ -1617,8 +1653,10 @@ focus_tree = {
     focus = {
         id = AUS_pooled_research_grants
         icon = GFX_goal_generic_scientific_focus
-        prerequisite = { focus = AUS_modular_warfare }
-        prerequisite = { focus = AUS_world_credit }
+        prerequisite = {
+            focus = AUS_modular_warfare
+            focus = AUS_world_credit
+        }
         x = 28
         y = 11
         cost = 5
@@ -1670,8 +1708,10 @@ focus_tree = {
     focus = {
         id = AUS_imperial_fleet_standard
         icon = GFX_goal_generic_navy_battleship
-        prerequisite = { focus = AUS_carrier_trials }
-        prerequisite = { focus = AUS_mediterranean_raiders }
+        prerequisite = {
+            focus = AUS_carrier_trials
+            focus = AUS_mediterranean_raiders
+        }
         x = 48
         y = 12
         cost = 5
@@ -1723,9 +1763,11 @@ focus_tree = {
     focus = {
         id = AUS_skysteel_integrated_forces
         icon = GFX_goal_generic_combined_arms
-        prerequisite = { focus = AUS_precision_bombardment }
-        prerequisite = { focus = AUS_ironcloud_interceptors }
-        prerequisite = { focus = AUS_imperial_fleet_standard }
+        prerequisite = {
+            focus = AUS_precision_bombardment
+            focus = AUS_ironcloud_interceptors
+            focus = AUS_imperial_fleet_standard
+        }
         x = 49
         y = 12
         cost = 5
@@ -1754,8 +1796,10 @@ focus_tree = {
     focus = {
         id = AUS_reassert_old_crowns
         icon = GFX_goal_anschluss
-        prerequisite = { focus = AUS_reintegrate_crowns }
-        prerequisite = { focus = AUS_pax_danubia }
+        prerequisite = {
+            focus = AUS_reintegrate_crowns
+            focus = AUS_pax_danubia
+        }
         x = 53
         y = 12
         cost = 5
@@ -1844,8 +1888,10 @@ focus_tree = {
     focus = {
         id = AUS_united_empire
         icon = GFX_goal_generic_major_alliance
-        prerequisite = { focus = AUS_transylvanian_push }
-        prerequisite = { focus = AUS_ku_k_legions }
+        prerequisite = {
+            focus = AUS_transylvanian_push
+            focus = AUS_ku_k_legions
+        }
         x = 54
         y = 16
         cost = 5
