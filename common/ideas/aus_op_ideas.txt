@@ -1,0 +1,1295 @@
+ideas = {
+    AUS_imperial_ambition = {
+        allowed = { original_tag = AUS }
+        picture = generic_political_reform
+        removal_cost = -1
+        modifier = {
+            political_power_gain = 0.25
+            stability_factor = 0.1
+            war_support_factor = 0.1
+            recruitable_population_factor = 0.15
+        }
+    }
+
+    AUS_industrial_cartels = {
+        allowed = { original_tag = AUS }
+        picture = generic_industry
+        removal_cost = -1
+        modifier = {
+            consumer_goods_factor = -0.2
+            industrial_capacity_factor = 0.2
+            production_speed_industrial_complex_factor = 0.25
+            production_speed_arms_factory_factor = 0.25
+        }
+    }
+
+    AUS_research_complex = {
+        allowed = { original_tag = AUS }
+        picture = generic_science
+        removal_cost = -1
+        modifier = {
+            research_speed_factor = 0.1
+            electronics_research_speed_factor = 0.1
+        }
+    }
+
+    AUS_professional_army = {
+        allowed = { original_tag = AUS }
+        picture = generic_army_command
+        removal_cost = -1
+        modifier = {
+            division_attack = 0.15
+            division_defense = 0.15
+            land_doctrine_cost_factor = -0.25
+            army_experience_gain_mult = 0.25
+        }
+    }
+
+    AUS_supreme_artillery = {
+        allowed = { original_tag = AUS }
+        picture = generic_artillery
+        removal_cost = -1
+        modifier = {
+            artillery_attack_factor = 0.25
+            soft_attack_factor = 0.15
+            breakthrough_factor = 0.1
+        }
+    }
+
+    AUS_diplomatic_web = {
+        allowed = { original_tag = AUS }
+        picture = generic_diplomacy
+        removal_cost = -1
+        modifier = {
+            improve_relations_maintain_cost_factor = -0.75
+            justify_war_goal_time = -0.5
+            guarantee_cost = -0.5
+            acceptance_of_fascist_diplomacy = 100
+            acceptance_of_democratic_diplomacy = 100
+            acceptance_of_communist_diplomacy = 100
+        }
+    }
+
+    AUS_motorized_focus = {
+        allowed = { original_tag = AUS }
+        picture = generic_tanks
+        removal_cost = -1
+        modifier = {
+            motorized_attack_factor = 0.2
+            mechanized_attack_factor = 0.2
+            motorized_speed_factor = 0.15
+            special_forces_cap = 0.1
+        }
+    }
+
+    AUS_perfect_planning = {
+        allowed = { original_tag = AUS }
+        picture = generic_staff
+        removal_cost = -1
+        modifier = {
+            planning_speed = 0.2
+            max_planning_factor = 0.2
+            org_loss_when_moving = -0.15
+        }
+    }
+
+    AUS_science_supremacy = {
+        allowed = { original_tag = AUS }
+        picture = generic_science2
+        removal_cost = -1
+        modifier = {
+            research_speed_factor = 0.15
+            rocket_research_speed_factor = 0.25
+            nuclear_research_speed_factor = 0.25
+        }
+    }
+
+    AUS_influence_network = {
+        allowed = { original_tag = AUS }
+        picture = generic_diplomacy_2
+        removal_cost = -1
+        modifier = {
+            foreign_subversive_activities = -0.5
+            lend_lease_tension = -0.25
+            trade_opinion_factor = 0.5
+        }
+    }
+
+    AUS_unbreakable_realm = {
+        allowed = { original_tag = AUS }
+        picture = generic_political_reform
+        removal_cost = -1
+        modifier = {
+            stability_factor = 0.25
+            war_support_factor = 0.25
+            political_power_gain = 0.3
+            recruitable_population_factor = 0.25
+            production_speed_buildings_factor = 0.2
+        }
+    }
+
+    AUS_infrastructure_boom = {
+        allowed = { original_tag = AUS }
+        picture = infrastructure_effort
+        modifier = {
+            production_speed_infrastructure_factor = 0.5
+            local_resources_factor = 0.15
+        }
+    }
+
+    AUS_war_economy_drive = {
+        allowed = { original_tag = AUS }
+        picture = war_economy
+        modifier = {
+            war_support_factor = 0.1
+            production_speed_arms_factory_factor = 0.2
+            production_speed_dockyard_factor = 0.2
+        }
+    }
+
+    AUS_endless_factories = {
+        allowed = { original_tag = AUS }
+        picture = construction_effort
+        modifier = {
+            production_speed_industrial_complex_factor = 0.25
+            production_speed_arms_factory_factor = 0.25
+            consumer_goods_factor = -0.1
+        }
+    }
+
+    AUS_intervention_rights = {
+        allowed = { original_tag = AUS }
+        picture = generic_intervention
+        modifier = {
+            generate_wargoal_tension = -0.5
+            world_tension_requirement = -0.2
+            enemy_operative_capture_chance_factor = -0.25
+        }
+    }
+
+    AUS_naval_rebirth = {
+        allowed = { original_tag = AUS }
+        picture = generic_navy
+        modifier = {
+            naval_dockyard_output = 0.25
+            production_speed_dockyard_factor = 0.3
+            max_naval_bases = 2
+        }
+    }
+
+    AUS_port_authority = {
+        allowed = { original_tag = AUS }
+        picture = generic_port
+        removal_cost = -1
+        modifier = {
+            trade_opinion_factor = 0.25
+            production_speed_convoy_factor = 0.25
+            convoy_cost_factor = -0.25
+            supply_consumption_factor = -0.05
+        }
+    }
+
+    AUS_blue_water_training = {
+        allowed = { original_tag = AUS }
+        picture = generic_navy_2
+        modifier = {
+            naval_experience_gain = 0.1
+            navy_hit_chance_factor = 0.1
+            navy_speed_factor = 0.1
+        }
+    }
+
+    AUS_adriatic_watch = {
+        allowed = { original_tag = AUS }
+        picture = generic_navy
+        removal_cost = -1
+        modifier = {
+            coastal_fort_construction_speed = 0.3
+            naval_strike_attack_factor = 0.15
+            naval_strike_targetting_factor = 0.15
+        }
+    }
+
+    AUS_naval_legionnaires = {
+        allowed = { original_tag = AUS }
+        picture = generic_navy
+        removal_cost = -1
+        modifier = {
+            navy_org_factor = 0.15
+            naval_morale_factor = 0.15
+            navy_leader_cost_factor = -0.25
+        }
+    }
+
+    AUS_adriatic_supremacy = {
+        allowed = { original_tag = AUS }
+        picture = generic_navy_3
+        modifier = {
+            naval_damage_factor = 0.15
+            naval_speed_factor = 0.1
+            convoy_raiding_efficiency = 0.25
+        }
+    }
+
+    AUS_aerial_empire = {
+        allowed = { original_tag = AUS }
+        picture = generic_air_force
+        removal_cost = -1
+        modifier = {
+            air_experience_gain_factor = 0.2
+            air_wing_xp_loss_when_killed_factor = -0.1
+            air_wing_training_xp_gain_factor = 0.2
+        }
+    }
+
+    AUS_air_lab_network = {
+        allowed = { original_tag = AUS }
+        picture = generic_science
+        modifier = {
+            air_equipment_research_speed_factor = 0.2
+            electronics_research_speed_factor = 0.1
+        }
+    }
+
+    AUS_bomber_hegemony = {
+        allowed = { original_tag = AUS }
+        picture = generic_air_force
+        removal_cost = -1
+        modifier = {
+            strategic_bomber_bombing_factor = 0.25
+            strategic_bomber_attack_factor = 0.15
+            strategic_bomber_defence_factor = 0.1
+        }
+    }
+
+    AUS_jet_workshops = {
+        allowed = { original_tag = AUS }
+        picture = generic_air_factory
+        removal_cost = -1
+        modifier = {
+            production_speed_air_base_factor = 0.25
+            air_equipment_upgrade_xp_cost = -0.25
+            air_equipment_research_speed_factor = 0.15
+        }
+    }
+
+    AUS_radar_web = {
+        allowed = { original_tag = AUS }
+        picture = generic_radar
+        modifier = {
+            radar_station_efficiency_factor = 0.2
+            air_superiority_bonus_in_combat = 0.1
+            interception_detection_chance = 0.1
+        }
+    }
+
+    AUS_skies_secured = {
+        allowed = { original_tag = AUS }
+        picture = generic_air_force
+        removal_cost = -1
+        modifier = {
+            air_superiority_factor = 0.15
+            air_mission_efficiency = 0.1
+            ace_generation_chance_factor = 0.15
+        }
+    }
+
+    AUS_shadow_empire = {
+        allowed = { original_tag = AUS }
+        picture = generic_intelligence
+        removal_cost = -1
+        modifier = {
+            intel_from_infiltration_factor = 0.25
+            decryption = 1
+            encryption = 1
+        }
+    }
+
+    AUS_intel_stream = {
+        allowed = { original_tag = AUS }
+        picture = generic_intelligence_2
+        modifier = {
+            civilian_intel_to_others = -0.25
+            army_intel_to_others = -0.25
+            navy_intel_to_others = -0.25
+        }
+    }
+
+    AUS_subversion_ops = {
+        allowed = { original_tag = AUS }
+        picture = generic_diplomacy
+        modifier = {
+            lend_lease_tension = -0.25
+            foreign_subversive_activities = -0.5
+            coup_deterrence = 0.5
+        }
+    }
+
+    AUS_court_of_kings = {
+        allowed = { original_tag = AUS }
+        picture = generic_political_reform
+        removal_cost = -1
+        modifier = {
+            improve_relations_maintain_cost_factor = -0.5
+            diplomatic_influence_cost = -0.25
+            acceptance_of_fascist_diplomacy = 50
+            acceptance_of_democratic_diplomacy = 50
+            acceptance_of_communist_diplomacy = 50
+        }
+    }
+
+    AUS_dynastic_pressure = {
+        allowed = { original_tag = AUS }
+        picture = generic_political_pressure
+        removal_cost = -1
+        modifier = {
+            justify_war_goal_time = -0.5
+            annexation_cost = -0.25
+            puppet_cost_factor = -0.25
+        }
+    }
+
+    AUS_great_power_status = {
+        allowed = { original_tag = AUS }
+        picture = generic_political_reform
+        removal_cost = -1
+        modifier = {
+            political_power_gain = 0.25
+            extra_trade_to_overlord_factor = 0.2
+            war_support_factor = 0.15
+            stability_factor = 0.1
+        }
+    }
+
+    AUS_empire_restored = {
+        allowed = { original_tag = AUS }
+        picture = generic_anschluss
+        removal_cost = -1
+        modifier = {
+            recruitable_population_factor = 0.25
+            production_speed_buildings_factor = 0.2
+            division_attack = 0.15
+            division_defense = 0.15
+        }
+    }
+
+    AUS_resource_survey = {
+        allowed = { original_tag = AUS }
+        picture = generic_oil
+        modifier = {
+            local_resources_factor = 0.15
+            production_speed_infrastructure_factor = 0.15
+        }
+    }
+
+    AUS_mining_syndicates = {
+        allowed = { original_tag = AUS }
+        picture = generic_industry
+        removal_cost = -1
+        modifier = {
+            production_speed_industrial_complex_factor = 0.25
+            local_resources_factor = 0.1
+            consumer_goods_factor = -0.05
+        }
+    }
+
+    AUS_energy_autarky = {
+        allowed = { original_tag = AUS }
+        picture = generic_oil_refinery
+        modifier = {
+            synthetic_refinery_refinery_output = 0.2
+            fuel_gain_factor = 0.2
+        }
+    }
+
+    AUS_refinery_grid = {
+        allowed = { original_tag = AUS }
+        picture = generic_oil
+        removal_cost = -1
+        modifier = {
+            synthetic_refinery_refinery_output = 0.25
+            fuel_silo_capacity = 0.2
+            supply_node_range = 0.1
+        }
+    }
+
+    AUS_supply_web = {
+        allowed = { original_tag = AUS }
+        picture = generic_infrastructure
+        modifier = {
+            supply_node_range = 0.25
+            supply_consumption_factor = -0.1
+        }
+    }
+
+    AUS_hydropower_grid = {
+        allowed = { original_tag = AUS }
+        picture = generic_power
+        removal_cost = -1
+        modifier = {
+            production_speed_industrial_complex_factor = 0.2
+            research_speed_factor = 0.05
+            consumer_goods_factor = -0.05
+        }
+    }
+
+    AUS_worker_cooperatives = {
+        allowed = { original_tag = AUS }
+        picture = generic_workers
+        removal_cost = -1
+        modifier = {
+            political_power_gain = 0.1
+            production_speed_buildings_factor = 0.1
+            stability_factor = 0.05
+        }
+    }
+
+    AUS_social_contract = {
+        allowed = { original_tag = AUS }
+        picture = generic_political_reform
+        removal_cost = -1
+        modifier = {
+            stability_factor = 0.1
+            war_support_factor = 0.05
+            conscription_factor = 0.05
+        }
+    }
+
+    AUS_alpine_commandos = {
+        allowed = { original_tag = AUS }
+        picture = generic_mountaineer
+        removal_cost = -1
+        modifier = {
+            special_forces_cap = 0.1
+            acclimatization_hot_climate_gain_factor = 0.1
+            acclimatization_cold_climate_gain_factor = 0.1
+        }
+    }
+
+    AUS_mountain_fortresses = {
+        allowed = { original_tag = AUS }
+        picture = generic_forts
+        modifier = {
+            production_speed_bunker_factor = 0.35
+            production_speed_coastal_bunker_factor = 0.2
+            land_fort_construction_speed = 0.2
+        }
+    }
+
+    AUS_steel_legions = {
+        allowed = { original_tag = AUS }
+        picture = generic_tank_production
+        removal_cost = -1
+        modifier = {
+            armor_speed_factor = 0.1
+            armor_attack_factor = 0.15
+            armor_defence_factor = 0.1
+        }
+    }
+
+    AUS_armored_breakthrough = {
+        allowed = { original_tag = AUS }
+        picture = generic_army_tanks
+        modifier = {
+            breakthrough_factor = 0.1
+            land_night_attack = 0.05
+            land_reinforce_rate = 0.05
+        }
+    }
+
+    AUS_combined_arms_school = {
+        allowed = { original_tag = AUS }
+        picture = generic_military_academy
+        removal_cost = -1
+        modifier = {
+            land_doctrine_cost_factor = -0.25
+            coordination_bonus = 0.05
+            army_experience_gain_mult = 0.1
+        }
+    }
+
+    AUS_modern_artillery_parks = {
+        allowed = { original_tag = AUS }
+        picture = generic_artillery
+        modifier = {
+            artillery_attack_factor = 0.2
+            soft_attack_factor = 0.1
+            land_reinforce_rate = 0.05
+        }
+    }
+
+    AUS_field_hospital_corps = {
+        allowed = { original_tag = AUS }
+        picture = generic_military_hospital
+        modifier = {
+            experience_loss_factor = -0.1
+            trickleback = 0.15
+            army_speed_factor = 0.05
+        }
+    }
+
+    AUS_mediterranean_bastion = {
+        allowed = { original_tag = AUS }
+        picture = generic_navy
+        modifier = {
+            coastal_fort_construction_speed = 0.25
+            naval_base_construction_speed = 0.25
+            naval_hit_chance_factor = 0.05
+        }
+    }
+
+    AUS_submarine_wolves = {
+        allowed = { original_tag = AUS }
+        picture = generic_submarine
+        removal_cost = -1
+        modifier = {
+            convoy_raiding_efficiency = 0.25
+            submarine_attack_factor = 0.2
+            sub_visibility = -0.1
+        }
+    }
+
+    AUS_amphibious_corps = {
+        allowed = { original_tag = AUS }
+        picture = generic_marines
+        removal_cost = -1
+        modifier = {
+            amphibious_invasion = 0.15
+            marine_attack_factor = 0.15
+            naval_invasion_preparation = -0.25
+        }
+    }
+
+    AUS_capital_dominance = {
+        allowed = { original_tag = AUS }
+        picture = generic_navy_capital_ship
+        removal_cost = -1
+        modifier = {
+            capital_ship_attack_factor = 0.2
+            capital_ship_defence_factor = 0.2
+            naval_dockyard_output = 0.15
+        }
+    }
+
+    AUS_oceanic_corridors = {
+        allowed = { original_tag = AUS }
+        picture = generic_convoy
+        modifier = {
+            production_speed_convoy_factor = 0.25
+            convoy_escorting_efficiency = 0.15
+            trade_opinion_factor = 0.2
+        }
+    }
+
+    AUS_global_convoy_monopoly = {
+        allowed = { original_tag = AUS }
+        picture = generic_navy_3
+        removal_cost = -1
+        modifier = {
+            convoy_raiding_efficiency = 0.25
+            convoy_defense_factor = 0.25
+            naval_speed_factor = 0.1
+        }
+    }
+
+    AUS_cas_armada = {
+        allowed = { original_tag = AUS }
+        picture = generic_air_force
+        removal_cost = -1
+        modifier = {
+            air_cas_max_agility_factor = 0.2
+            air_cas_efficiency = 0.15
+            air_experience_gain_factor = 0.1
+        }
+    }
+
+    AUS_skyfortresses = {
+        allowed = { original_tag = AUS }
+        picture = generic_air_defense
+        modifier = {
+            air_defence_factor = 0.15
+            strategic_bomber_defence_factor = 0.15
+            radar_station_efficiency_factor = 0.15
+        }
+    }
+
+    AUS_airborne_legions = {
+        allowed = { original_tag = AUS }
+        picture = generic_paratrooper
+        removal_cost = -1
+        modifier = {
+            paradrop_organization_factor = 0.2
+            air_supply_factor = 0.15
+            special_forces_cap = 0.05
+        }
+    }
+
+    AUS_global_airlift = {
+        allowed = { original_tag = AUS }
+        picture = generic_air_transport
+        removal_cost = -1
+        modifier = {
+            air_supply_factor = 0.2
+            air_mission_efficiency = 0.1
+            strat_bomber_research_speed_factor = 0.1
+        }
+    }
+
+    AUS_propaganda_directorate = {
+        allowed = { original_tag = AUS }
+        picture = generic_propaganda
+        removal_cost = -1
+        modifier = {
+            stability_factor = 0.05
+            war_support_factor = 0.05
+            weekly_manpower = 1500
+        }
+    }
+
+    AUS_reichsrat_security = {
+        allowed = { original_tag = AUS }
+        picture = generic_intelligence
+        removal_cost = -1
+        modifier = {
+            resistance_target = -0.05
+            compliance_growth = 0.05
+            enemy_operative_capture_chance_factor = -0.1
+        }
+    }
+
+    AUS_cryptology_center = {
+        allowed = { original_tag = AUS }
+        picture = generic_radar
+        removal_cost = -1
+        modifier = {
+            decryption = 1
+            encryption = 1
+            decryption_factor = 0.1
+        }
+    }
+
+    AUS_worldwide_assets = {
+        allowed = { original_tag = AUS }
+        picture = generic_spy
+        removal_cost = -1
+        modifier = {
+            intel_from_operatives_factor = 0.25
+            operative_slots = 1
+            foreign_subversive_activities = -0.5
+        }
+    }
+
+    AUS_central_european_block = {
+        allowed = { original_tag = AUS }
+        picture = generic_diplomacy
+        modifier = {
+            guarantee_cost = -0.5
+            join_faction_tension = -0.3
+            justify_war_goal_time = -0.25
+        }
+    }
+
+    AUS_imperial_conference = {
+        allowed = { original_tag = AUS }
+        picture = generic_political_reform
+        removal_cost = -1
+        modifier = {
+            stability_factor = 0.05
+            political_power_gain = 0.1
+            trade_opinion_factor = 0.1
+        }
+    }
+
+    AUS_reintegrate_crowns = {
+        allowed = { original_tag = AUS }
+        picture = generic_anschluss
+        removal_cost = -1
+        modifier = {
+            compliance_growth = 0.1
+            recruitable_population_factor = 0.1
+            resistance_decay_on_our_occupied_states = 0.1
+        }
+    }
+
+    AUS_world_arbiter = {
+        allowed = { original_tag = AUS }
+        picture = generic_major_war
+        removal_cost = -1
+        modifier = {
+            political_power_gain = 0.25
+            war_support_factor = 0.15
+            stability_factor = 0.1
+            extra_trade_to_overlord_factor = 0.25
+        }
+    }
+
+    AUS_dual_monarchy_legacy = {
+        allowed = { original_tag = AUS }
+        picture = generic_political_reform
+        removal_cost = -1
+        modifier = {
+            stability_factor = 0.05
+            political_power_gain = 0.05
+            weekly_manpower = 2500
+        }
+    }
+
+    AUS_crownland_loyalties = {
+        allowed = { original_tag = AUS }
+        picture = generic_national_unity
+        removal_cost = -1
+        modifier = {
+            recruitable_population_factor = 0.1
+            compliance_growth = 0.05
+            resistance_decay_on_our_occupied_states = 0.05
+        }
+    }
+
+    AUS_historical_pageantry = {
+        allowed = { original_tag = AUS }
+        picture = generic_political_improvement
+        removal_cost = -1
+        modifier = {
+            political_power_gain = 0.05
+            stability_factor = 0.05
+        }
+    }
+
+    AUS_hussar_heritage = {
+        allowed = { original_tag = AUS }
+        picture = generic_cavalry
+        removal_cost = -1
+        modifier = {
+            division_speed = 0.05
+            cavalry_attack_factor = 0.1
+            cavalry_defence_factor = 0.1
+        }
+    }
+
+    AUS_war_ministry_modernized = {
+        allowed = { original_tag = AUS }
+        picture = generic_ministry
+        removal_cost = -1
+        modifier = {
+            army_experience_gain_mult = 0.1
+            land_doctrine_cost_factor = -0.1
+            division_organization = 0.05
+        }
+    }
+
+    AUS_hofburg_renovations = {
+        allowed = { original_tag = AUS }
+        picture = generic_reform
+        removal_cost = -1
+        modifier = {
+            stability_factor = 0.05
+            construction_speed_factor = 0.05
+            civilian_factory_use = -0.05
+        }
+    }
+
+    AUS_royal_guard = {
+        allowed = { original_tag = AUS }
+        picture = generic_military_parade
+        removal_cost = -1
+        modifier = {
+            division_attack = 0.05
+            division_defence = 0.05
+            special_forces_cap = 0.1
+        }
+    }
+
+    AUS_history_guides_future = {
+        allowed = { original_tag = AUS }
+        picture = generic_science
+        removal_cost = -1
+        modifier = {
+            research_speed_factor = 0.05
+            air_experience_gain_mult = 0.1
+            naval_experience_gain_mult = 0.1
+        }
+    }
+
+    AUS_danube_line = {
+        allowed = { original_tag = AUS }
+        picture = generic_fortify_the_border
+        removal_cost = -1
+        modifier = {
+            max_dig_in = 2
+            land_fort_construction_speed = 0.2
+            planning_speed = 0.05
+        }
+    }
+
+    AUS_ku_k_navy_reform = {
+        allowed = { original_tag = AUS }
+        picture = generic_navy
+        removal_cost = -1
+        modifier = {
+            dockyard_output = 0.15
+            naval_speed_factor = 0.05
+            navy_capital_ship_attack_factor = 0.1
+        }
+    }
+
+    AUS_holy_crown_reaffirmed = {
+        allowed = { original_tag = AUS }
+        picture = generic_political_reform
+        removal_cost = -1
+        modifier = {
+            war_support_factor = 0.1
+            stability_factor = 0.1
+            justify_war_goal_time = -0.1
+        }
+    }
+
+    AUS_march_to_majesty = {
+        allowed = { original_tag = AUS }
+        picture = generic_political_center
+        removal_cost = -1
+        modifier = {
+            political_power_gain = 0.1
+            research_speed_factor = 0.05
+            global_building_slots_factor = 0.1
+        }
+    }
+
+    AUS_imperial_sphere = {
+        allowed = { original_tag = AUS }
+        picture = generic_political_military_alliance
+        removal_cost = -1
+        modifier = {
+            political_power_factor = 0.1
+            stability_factor = 0.05
+            war_support_factor = 0.05
+        }
+    }
+
+    AUS_central_europe_council = {
+        allowed = { original_tag = AUS }
+        picture = generic_political_treaty
+        removal_cost = -1
+        modifier = {
+            opinion_gain_monthly_same_ideology = 0.2
+            non_core_manpower = 0.05
+            lend_lease_tension = -0.2
+        }
+    }
+
+    AUS_mandate_of_trade = {
+        allowed = { original_tag = AUS }
+        picture = generic_trade
+        removal_cost = -1
+        modifier = {
+            trade_opinion_factor = 0.3
+            consumer_goods_factor = -0.05
+            production_speed_industrial_complex_factor = 0.1
+        }
+    }
+
+    AUS_boundless_workforce = {
+        allowed = { original_tag = AUS }
+        picture = generic_workers
+        removal_cost = -1
+        modifier = {
+            industrial_capacity_factor = 0.15
+            construction_speed_factory_factor = 0.1
+            compliance_gain = 0.05
+        }
+    }
+
+    AUS_iron_danube_wall = {
+        allowed = { original_tag = AUS }
+        picture = generic_fortification
+        removal_cost = -1
+        modifier = {
+            land_fort_construction_speed = 0.25
+            max_dig_in = 2
+            land_defense_factor = 0.05
+        }
+    }
+
+    AUS_ceaseless_supply = {
+        allowed = { original_tag = AUS }
+        picture = generic_supply
+        removal_cost = -1
+        modifier = {
+            supply_consumption_factor = -0.15
+            supply_node_range = 0.1
+            division_speed = 0.05
+        }
+    }
+
+    AUS_imperial_standardization = {
+        allowed = { original_tag = AUS }
+        picture = generic_industry2
+        removal_cost = -1
+        modifier = {
+            production_factory_max_efficiency_factor = 0.1
+            industrial_capacity_factory = 0.1
+            production_speed_arms_factory_factor = 0.1
+        }
+    }
+
+    AUS_hegemons_right = {
+        allowed = { original_tag = AUS }
+        picture = generic_political_center
+        removal_cost = -1
+        modifier = {
+            political_power_gain = 0.15
+            research_speed_factor = 0.05
+            war_support_factor = 0.1
+            stability_factor = 0.1
+        }
+    }
+
+    AUS_unified_royal_societies = {
+        allowed = { original_tag = AUS }
+        picture = generic_science
+        removal_cost = -1
+        modifier = {
+            research_speed_factor = 0.05
+            civilian_factory_use = -0.05
+        }
+    }
+
+    AUS_quantum_labs = {
+        allowed = { original_tag = AUS }
+        picture = generic_research
+        removal_cost = -1
+        modifier = {
+            research_speed_factor = 0.05
+            nuclear_reactor_construction_speed = 0.25
+            nuclear_production_factor = 0.25
+        }
+    }
+
+    AUS_trans_danubian_supergrid = {
+        allowed = { original_tag = AUS }
+        picture = generic_power
+        removal_cost = -1
+        modifier = {
+            infrastructure_construction_speed = 0.2
+            production_speed_industrial_complex_factor = 0.1
+            refinery_construction_speed = 0.1
+        }
+    }
+
+    AUS_highland_observatories = {
+        allowed = { original_tag = AUS }
+        picture = generic_air_research
+        removal_cost = -1
+        modifier = {
+            air_experience_gain_factor = 0.25
+            rocket_attack_factor = 0.1
+            air_detection = 0.1
+        }
+    }
+
+    AUS_cyber_defense_command = {
+        allowed = { original_tag = AUS }
+        picture = generic_intelligence
+        removal_cost = -1
+        modifier = {
+            encryption = 0.2
+            decryption = 0.2
+            intel_from_combat_factor = 0.1
+        }
+    }
+
+    AUS_stratospheric_airlift = {
+        allowed = { original_tag = AUS }
+        picture = generic_air_transport
+        removal_cost = -1
+        modifier = {
+            paradrop_organization_factor = 0.2
+            air_supply_factor = 0.25
+            transport_plane_production_cost_factor = -0.1
+        }
+    }
+
+    AUS_orbital_dreams = {
+        allowed = { original_tag = AUS }
+        picture = generic_rocket
+        removal_cost = -1
+        modifier = {
+            rocket_speed_factor = 0.15
+            rocket_launch_site_construction_speed = 0.25
+            special_forces_cap = 0.05
+        }
+    }
+
+    AUS_command_of_elements = {
+        allowed = { original_tag = AUS }
+        picture = generic_defense
+        removal_cost = -1
+        modifier = {
+            weather_penalty = -0.15
+            acclimatization_cold_climate_gain_factor = 0.2
+            acclimatization_hot_climate_gain_factor = 0.2
+        }
+    }
+
+    AUS_autobahn_of_empire = {
+        allowed = { original_tag = AUS }
+        picture = generic_infrastructure
+        removal_cost = -1
+        modifier = {
+            infrastructure_construction_speed = 0.25
+            strategic_redeployment_benefit_factor = 0.1
+        }
+    }
+
+    AUS_transalpine_depots = {
+        allowed = { original_tag = AUS }
+        picture = generic_supply
+        removal_cost = -1
+        modifier = {
+            supply_node_range = 0.15
+            supply_consumption_factor = -0.1
+            org_loss_when_moving = -0.05
+        }
+    }
+
+    AUS_mobile_forges = {
+        allowed = { original_tag = AUS }
+        picture = generic_factory
+        removal_cost = -1
+        modifier = {
+            industrial_capacity_factory = 0.1
+            production_factory_start_efficiency_factor = 0.1
+        }
+    }
+
+    AUS_imperial_railway_guard = {
+        allowed = { original_tag = AUS }
+        picture = generic_train
+        removal_cost = -1
+        modifier = {
+            resistance_target = -0.05
+            garrison_manpower_loss = -0.1
+            supply_node_range = 0.05
+        }
+    }
+
+    AUS_balkan_integration = {
+        allowed = { original_tag = AUS }
+        picture = generic_diplomacy
+        removal_cost = -1
+        modifier = {
+            compliance_gain = 0.05
+            foreign_subversive_activites = -0.2
+            annex_cost_factor = -0.05
+        }
+    }
+
+    AUS_imperial_stock_exchange = {
+        allowed = { original_tag = AUS }
+        picture = generic_trade
+        removal_cost = -1
+        modifier = {
+            production_speed_industrial_complex_factor = 0.1
+            consumer_goods_factor = -0.05
+            trade_opinion_factor = 0.2
+        }
+    }
+
+    AUS_world_credit = {
+        allowed = { original_tag = AUS }
+        picture = generic_trade2
+        removal_cost = -1
+        modifier = {
+            lend_lease_tension = -0.25
+            war_support_factor = 0.05
+            political_power_gain = 0.05
+        }
+    }
+
+    AUS_pooled_research_grants = {
+        allowed = { original_tag = AUS }
+        picture = generic_research
+        removal_cost = -1
+        modifier = {
+            research_speed_factor = 0.03
+            research_speed_factor_new = 0.05
+        }
+    }
+
+    AUS_adriatic_strike_groups = {
+        allowed = { original_tag = AUS }
+        picture = generic_navy
+        removal_cost = -1
+        modifier = {
+            naval_speed_factor = 0.1
+            naval_torpedo_screen_penetration_factor = 0.1
+            naval_coordination = 0.1
+        }
+    }
+
+    AUS_carrier_trials = {
+        allowed = { original_tag = AUS }
+        picture = generic_navy_carrier
+        removal_cost = -1
+        modifier = {
+            carrier_sortie_efficiency = 0.1
+            naval_strike_attack_factor = 0.1
+            naval_strike_targetting_factor = 0.1
+        }
+    }
+
+    AUS_mediterranean_raiders = {
+        allowed = { original_tag = AUS }
+        picture = generic_navy_submarine
+        removal_cost = -1
+        modifier = {
+            naval_submarine_attack_factor = 0.15
+            naval_submarine_defence_factor = 0.1
+            convoy_raiding_efficiency_factor = 0.15
+        }
+    }
+
+    AUS_imperial_fleet_standard = {
+        allowed = { original_tag = AUS }
+        picture = generic_navy_battleship
+        removal_cost = -1
+        modifier = {
+            navy_capital_ship_attack_factor = 0.15
+            navy_capital_ship_defence_factor = 0.1
+            naval_morale = 0.05
+        }
+    }
+
+    AUS_skyward_armada = {
+        allowed = { original_tag = AUS }
+        picture = generic_air
+        removal_cost = -1
+        modifier = {
+            air_mission_efficiency = 0.05
+            air_wing_xp_gain_factor = 0.1
+            air_experience_gain_factor = 0.1
+        }
+    }
+
+    AUS_precision_bombardment = {
+        allowed = { original_tag = AUS }
+        picture = generic_air_bomber
+        removal_cost = -1
+        modifier = {
+            strategic_bomber_bombing_factor = 0.1
+            air_night_penalty = -0.1
+            air_range_factor = 0.05
+        }
+    }
+
+    AUS_ironcloud_interceptors = {
+        allowed = { original_tag = AUS }
+        picture = generic_air_fighter
+        removal_cost = -1
+        modifier = {
+            air_superiority_damage_factor = 0.1
+            air_superiority_agility_factor = 0.1
+            air_superiority_speed_factor = 0.05
+        }
+    }
+
+    AUS_skysteel_integrated_forces = {
+        allowed = { original_tag = AUS }
+        picture = generic_combined_arms
+        removal_cost = -1
+        modifier = {
+            joint_training_experience_gain_factor = 0.1
+            air_ground_attack_factor = 0.1
+            naval_invasion_preparation = -0.15
+        }
+    }
+
+    AUS_throne_of_waves = {
+        allowed = { original_tag = AUS }
+        picture = generic_navy_anchor
+        removal_cost = -1
+        modifier = {
+            naval_invasion_capacity = 20
+            naval_invasion_prep_speed = 0.2
+            navy_capital_ship_attack_factor = 0.05
+            carrier_capacity_penalty_reduction = 0.1
+        }
+    }
+
+    AUS_dual_monarchy_pressure = {
+        allowed = { original_tag = AUS }
+        picture = generic_political_reform
+        removal_cost = -1
+        modifier = {
+            justify_war_goal_time = -0.35
+            annex_cost_factor = -0.2
+            diplomatic_influence_gain = 0.1
+        }
+    }
+
+    AUS_bohemian_garrisons = {
+        allowed = { original_tag = AUS }
+        picture = generic_military_police
+        removal_cost = -1
+        modifier = {
+            division_defense = 0.05
+            resistance_target = -0.15
+            compliance_growth = 0.05
+        }
+    }
+
+    AUS_danubian_pressure = {
+        allowed = { original_tag = AUS }
+        picture = generic_diplomacy
+        removal_cost = -1
+        modifier = {
+            war_support_factor = 0.05
+            political_power_gain = 0.1
+            surrender_limit = 0.05
+        }
+    }
+
+    AUS_croat_integration = {
+        allowed = { original_tag = AUS }
+        picture = generic_navy_cruiser
+        removal_cost = -1
+        modifier = {
+            dockyard_output = 0.15
+            naval_speed_factor = 0.05
+            recruitable_population_factor = 0.05
+        }
+    }
+
+    AUS_transylvanian_line = {
+        allowed = { original_tag = AUS }
+        picture = generic_defence
+        removal_cost = -1
+        modifier = {
+            land_doctrine_cost_factor = -0.15
+            max_dig_in = 2
+            planning_speed = 0.1
+        }
+    }
+
+    AUS_ku_k_legions = {
+        allowed = { original_tag = AUS }
+        picture = generic_army_command
+        removal_cost = -1
+        modifier = {
+            division_attack = 0.1
+            division_recovery_rate = 0.1
+            recruitable_population_factor = 0.25
+        }
+    }
+
+    AUS_united_empire = {
+        allowed = { original_tag = AUS }
+        picture = generic_major_alliance
+        removal_cost = -1
+        modifier = {
+            stability_factor = 0.1
+            war_support_factor = 0.1
+            factory_output = 0.1
+            dockyard_output = 0.1
+        }
+    }
+}
